@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My SMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{font-family:Arial;background:#111;color:white;padding:20px}
+input,textarea{width:100%;padding:12px;margin-top:10px;border-radius:8px;border:none}
+button{width:100%;padding:15px;margin-top:10px;background:#0a84ff;color:white;border:none;border-radius:10px;font-size:18px}
+</style>
+</head>
 
+<body>
+
+<h2>Telnyx SMS</h2>
+
+<input id="number" placeholder="Phone number">
+
+<textarea id="message" placeholder="Type message"></textarea>
+
+<button onclick="sendSMS()">Send</button>
+
+<script>
+function sendSMS(){
+alert("SMS sending connected soon...");
+}
+</script>
+
+</body>
+</html>
